@@ -2,6 +2,12 @@
 import random
 
 def guess(x):
+    '''
+    (int) -> NoneType
+
+    generates a random number between 1, x and ask user to guess the number, prints
+    some hints according to the guess input, until user enters the random number.
+    '''
     #generating a random number using randint func
     random_number = random.randint(1, x)
 
